@@ -30,6 +30,7 @@ async function mostraLivros() {
         const spanElement = document.createElement('span');
         const paragraphElement = document.createElement('p');
         const imageElement = document.createElement('img'); // Elemento de imagem
+        const brElement = document.createElement('br')
 
         summaryElement.textContent = book.titulo;
         spanElement.textContent = book.autor;
@@ -42,6 +43,7 @@ async function mostraLivros() {
         detailsElement.appendChild(paragraphElement);
        
         estante.appendChild(imageElement)
+        
         estante.appendChild(detailsElement);
     })
 }
