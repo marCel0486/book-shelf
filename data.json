@@ -1,0 +1,55 @@
+[
+{
+   "imagem" : "img/1984.png",
+   "titulo" : "1984",
+   "autor" : "George orwell;",
+   "descricao" : "este é um livro de ficção cientifica escrito por george orwell. ele conta a historia de um futuro destopico. Onde o mundo de totalmente controlado por uma ditaduta aos comandos do grande irmão."
+   
+
+},
+{
+   "imagem" : "img/guia.png",
+   "titulo" : "O guia do mochileiro das galáxias",
+   "autor" : "Douglas Adams; ",
+   "descricao" : "Livro de ficção cientifica e aventura conta a historia de Arthur dent um cara normal que estava apenas tentando viver sua vida até que ocorre a destruição da terra para construção de uma via intergalatica por sorte seu melhor amigo ford perfect conseguiu uma carona e eles conseguem fugir por muito pouco. "
+   
+
+},
+{
+   "imagem" : "img/verity.png",
+   "titulo" : "Verity",
+   "autor" : "Collen Hoover;",
+   "descricao" : "livro de suspense conta a historia de verity uma escritora famosa que acaba perdendo sua sanidade antes de publicar seu ultimo livro sendo assim seu maridp jerimy contrata uma escritora fantasma para terminar seu ultimo livro. "
+   
+
+},
+{
+   "imagem" : "img/cap.png",
+   "titulo" : "Capitães de areia",
+   "autor" : "Jorge Amado;",
+   "descricao" : "O livro conta a historia de um grupo de crianças orfãs que criam um sociedade chamada capitães de areia e assim vivem loucas aventuras."
+   
+
+},
+{
+   "imagem" : "img/joyland.png",
+   "titulo" : "Joyland",
+   "autor" : "sthepen king;",
+   "descricao" : "Nesse livro o grande mestre sthepen king conta a historia de um patque de diversões mal assombrado. Mais conhecendo o mestre podemos saber que a historia não é soói sobre isso. "
+   
+
+},
+{
+   "imagem" : "img/bicho.png",
+   "titulo" : "A revolução dos bichos",
+   "autor" : "George orwell;",
+   "descricao" : "Esse livro conta a historia de uma fazenda que como qualquer outra é cheia de animais porém aqui temos algo diferente estes animais resolvem fazer uma revolução sendo extremamente inteligentes etc. "
+   
+
+}
+
+
+
+
+
+]

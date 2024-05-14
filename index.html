@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book shelf </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Book shelf</h1>
+
+    <div class="estante">
+
+    </div>
+
+<script>
+async function getBooks(){
+    const response = await fetch('data.json')
+    const data = await response.json()
+    return data 
+}
+
+async function mostraLivros() {
+    const books = await getBooks()
+    const estante = document.querySelector('.estante')
+
+    books.forEach(book => {
+        const detailsElement = document.createElement('details');
+        const summaryElement = document.createElement('summary');
+        const spanElement = document.createElement('span');
+        const paragraphElement = document.createElement('p');
+        const imageElement = document.createElement('img'); // Elemento de imagem
+
+        summaryElement.textContent = book.titulo;
+        spanElement.textContent = book.autor;
+        paragraphElement.textContent = book.descricao;
+        imageElement.src = book.imagem; // Definindo o src da imagem
+        imageElement.alt = book.titulo; // Adicionando um texto alternativo à imagem
+
+        detailsElement.appendChild(summaryElement);
+        detailsElement.appendChild(spanElement);
+        detailsElement.appendChild(paragraphElement);
+       
+        estante.appendChild(imageElement)
+        estante.appendChild(detailsElement);
+    })
+}
+
+document.addEventListener('DOMContentLoaded', mostraLivros);
+</script>
+</body>
+</html>
